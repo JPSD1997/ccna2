@@ -331,8 +331,8 @@ ebet11.com open only dns, https, ssh     53, 443, 22 ==> 6 lines:
    protocol         hacker    victim       port
 tcp,udp,icmp,IP     Any      web310/11
 Config t
-ip host ebet10.com 192.168.103.10
-ip host ebet11.com 192.168.103.11
+ip host bet10.com 192.168.103.10
+ip host bet11.com 192.168.103.11
 service timestamps log datetime
 service timestamps debug datetime
 logging 10.m.1.10
@@ -1084,6 +1084,7 @@ https:///restconf/data/Cisco-IOS-XE-native:native/interface/Loopback
 
 HomeWork for the Hardest Day in CCNA: 
 CSr, linuxdocker, pythondocker, Postman: RestApi.
+
 
 
 
